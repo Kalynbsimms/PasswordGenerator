@@ -56,7 +56,7 @@ const generatePassword = () => {
 
 // Outside of the conditional statements. generates password
 document.getElementById('generate').addEventListener('click', () => {
-  let favorites = generatePassword()
+  let passWord = generatePassword()
 
   document.getElementById('password').textContent = passWord
 })
